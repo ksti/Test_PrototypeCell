@@ -1,0 +1,20 @@
+//
+//  CustomPrototypeCell4.h
+//  Test_PrototypeCell
+//
+//  Created by forp on 16/5/13.
+//  Copyright © 2016年 forp. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface CustomPrototypeCell4 : UITableViewCell {
+    
+}
+
+@property IBOutlet __weak UIImageView *customImageView;
+@property __weak IBOutlet UILabel *customLabelName;
+@property (weak, nonatomic) IBOutlet UILabel *customLabelLocation;
+@property (weak, nonatomic) IBOutlet UILabel *customLabelType;
+
+@end
